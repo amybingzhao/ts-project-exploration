@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig-base",
+    "include": ["**/*"],
+    "compilerOptions": {
+        "outDir": "./built"
+    },
+    // tried to introduce a cycle
+    // "references": [
+    //     {"path": "../src"}
+    // ]
+}

@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig-base",
+    "include": ["**/*"],
+    "compilerOptions": {
+        "outDir": "./built"
+    },
+    "references": [
+        {"path": "../src"}
+    ],
+    "baseUrl": "../",
+    "paths": {
+        "*": "../*"
+    }
+}

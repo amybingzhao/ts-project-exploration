@@ -1,0 +1,1 @@
+export const logGoodbye = () => { console.log("Goodbye") }
