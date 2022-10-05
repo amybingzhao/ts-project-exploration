@@ -1,7 +1,8 @@
-import { subtract } from "../dependedOnBySrc/subtracter"
-import { logHello } from "./helpers/hello"
+import { add } from "adder"
+import { logHello } from "helpers/hello"
 
 console.log("This is the index")
-console.log(`9 - 8 is ${subtract(9, 8)}`)
+const x = add(9, 8)
+console.log("9 - 8 is " + x)
 console.log("irrelevant change")
 logHello()

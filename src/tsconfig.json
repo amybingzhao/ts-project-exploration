@@ -2,6 +2,7 @@
     "extends": "../tsconfig-base",
     "include": ["**/*"],
     "compilerOptions": {
+        // "baseUrl": ".",
         "outDir": "./built"
     },
     "references": [
