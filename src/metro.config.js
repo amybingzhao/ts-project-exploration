@@ -1,3 +1,5 @@
+// npx metro build index.ts --platform web --out ./dist/index.js
+
 module.exports = {
     // projectRoot: ".",
     resolver: {
