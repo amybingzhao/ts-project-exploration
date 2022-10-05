@@ -1,8 +1,16 @@
 {
     "extends": "../tsconfig-base",
-    "include": ["**/*"],
+    "include": ["**/*", "metro.config.js"],
     "compilerOptions": {
-        "outDir": "./built"
+        "outDir": "./built",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+              "./*"
+            ],
+          },
+        "lib": ["dom", "es2015", "es2017.object", "es2018.promise"],
+        "target": "esnext"
     },
     "references": [
         { "path": "../dependedOnBySrc" }
