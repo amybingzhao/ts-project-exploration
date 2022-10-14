@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig-base",
+    "include": ["**/*"],
+    "compilerOptions": {
+        // "baseUrl": ".",
+        "outDir": "./built",
+        "module": "ESNext",
+        "jsx": "react-jsx",
+    },
+}
